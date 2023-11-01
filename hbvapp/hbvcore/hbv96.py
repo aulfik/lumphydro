@@ -4,7 +4,7 @@ from __future__ import division, print_function
 import numpy as np
 import scipy.optimize as opt
 import pandas as pd
-from StringIO import StringIO
+from io import StringIO
 from pandas import DataFrame
 
 class HydroModel(object):

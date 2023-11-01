@@ -1,8 +1,8 @@
-from django.conf.urls import url
+from django.urls import re_path
 
 from . import views
 
 urlpatterns = [
 	# ex: /hbvapp/
-    url(r'^$', views.home, name='home'),
+    re_path(r'^$', views.home, name='home'),
 ]

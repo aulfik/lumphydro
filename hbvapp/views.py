@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, JsonResponse
 from django.template import loader, RequestContext
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render
 from .hbvcore.hbv96 import HBV96, DivergentError
 import json
 
